@@ -22,7 +22,16 @@ int main() {
         contadorRainha++;
     } while ( contadorRainha <= 8);
 
-
+    printf("\nMovimento do Cavalo\n");
+    while (contadorCavalo--){
+        
+        for (int i = 0; i < 2; i++) {
+            printf("baixo\n");
+        }
+        printf("esquerda");
+        
+    }
+    
     
     return 0;
 }
